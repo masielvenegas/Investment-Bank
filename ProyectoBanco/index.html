@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keybords" content="banco, inversiones, bank, Investment Bank"/>
+    
+    <!--link css de boostrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!--link googlefonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+     <!--link fontawesome-->
+     <script
+     src="https://kit.fontawesome.com/8ebf433348.js"
+     crossorigin="anonymous"
+   ></script>
+    
+    <link rel="stylesheet" href="./css/style.css" />
+      
+
+    <title>Investment Bank</title>
+  </head>
+
+<body>
+   <!-- Header -->
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container ">
+
+            <!-- logo -->
+            <div class="d-flex align-items-center justify-content-start >
+              <a  class="navbar-brand " href="#">
+                <img src="./img/logo.png" alt="logo" width="70" height="70" class="d-inline-"></a>
+       
+        <p  class="navbar-brand fs-4 fw-bold ms-2 mt-3 ">Investment Bank</p>
+            </div>   
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- lista desordenada -->
+        
+          <div class="collapse navbar-collapse justify-content-end fs-5 " id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item activado">
+                <a class="nav-link " aria-current="page" href="./html/home.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="./html/aboutus.html">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="./html/blog.html">Blog</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="./html/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+          
+          <!-- botones -->
+          <div class="collapse navbar-collapse justify-content-end fs-5 " id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <button type="button" class="btn suscripcion fs-5 my-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Suscríbite
+                </button>
+              </li>
+              <li class="nav-item  ">
+                <a class="nav-link" href="./html/login.html">Inicia Sesión</a>
+              </li>            
+            </ul>
+          </div>
+      
+
+        </div>
+      </nav>
+      </header>
+
+      
+      <!--home-->
+      <!-- carousel -->
+      <main id="carousel" >
+       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+     
+      <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner col-md row-md">
+          <!--imagen carousel 01-->
+          <div class="carousel-item active">
+              <img
+              src="./img/carousel01.jpg"
+              class="d-block w-100"
+              alt="Millas"
+             /> 
+            <div class="carousel-caption d-none d-md-block text-start">
+              <h1 class="fw-bolder" >_Es tu futuro</h1>
+              <h3 class="fs-4 ">
+                ¿No deberías <br>
+                poder elegirlo?
+              </h3>
+            </div>
+          </div>
+
+           <!--imagen carousel 02-->
+          <div class="carousel-item top-0">
+            <img
+              src="./img/carousel02.jpg"
+              class="d-block w-100 "
+              alt="Prestamos"
+            />
+            <div class="carousel-caption d-none d-md-block text-center ">
+              <h2 class="fw-bolder ">Creando <br>
+                 oportunidades</h2>
+             
+            </div>
+          </div>
+
+           <!--imagen carousel 03-->
+          <div class="carousel-item">
+            <img
+              src="./img/carousel03.jpg"
+              class="d-block w-100"
+              alt="SumateaIB"
+            />
+            <div class="carousel-caption d-none d-md-block text-start ">           
+              <h2 class="fw-bolder  mt-2 ">INVIERTE AHORA <br> POR TU FUTURO</h2>
+              <h3 class="fs-4  ">
+                Te acompañamos a pensar en grande
+              </h3>
+            </div>
+          </div>
+
+        </div>
+         <!--boton anterior-->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <!--boton siguiente-->
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        
+        </div>
+      </main>
+        
+<!--body-->
+       <section class="container my-3 ">
+  <div class="row text-center">
+      <h2 class="text-center text-primary subtitulo-home fs-1">La forma más sencilla de invertir adaptada a tu forma de entender el mundo</h2>
+      
+        <div class="col">
+          <div class="card ">
+            <img src="./img/100digital.jpg" class="card-img-top" alt="digital">
+            <div class="card-body card-fondo">
+              <h2 class="card-title align-items-start fw-bold text-primary ">100% Digital</h2>
+              <p class="card-text text-sm-start fs-5 lh-1 ">Abre tu cuenta multidivisa online en menos de 15 minutos y conoce minuto a minuto la evolución de tus inversiones.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-none d-lg-block ">
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col ">
+              <div class="card card-fondo  h-100">
+                <i class="fa-solid fa-right-left fa-2x text-center mt-3"></i>
+                <div class="card-body ">
+                  <h4 class="card-title fw-bold text-primary">Más ágil</h4>
+                  <p class="card-text  text-wrap fs-6 lh-1">Te ofrecemos una experiencia de inversión online adaptada a tus necesidades, con nuestro servicio disponible 24/7.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card card-fondo  h-100">
+                <i class="fa-solid fa-lock fa-2x text-center mt-3"></i>
+                <div class="card-body">
+                  <h4 class="card-title fw-bold text-primary">Más segura</h4>
+                  <p class="card-text  text-wrap fs-6 lh-1">Cuidamos tu dinero desde la experiencia y seguridad de un gran banco suizo. Compra, vende y accede a tus movimientos sin complejidades.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-fondo  h-100">
+                <i class="fa-solid fa-lightbulb fa-2x text-center mt-3"></i>
+                <div class="card-body">
+                  <h4 class="card-title fw-bold text-primary">Más innovadora</h4>
+                  <p class="card-text  text-wrap fs-6 lh-1">Hemos diseñado Investment Bank con espíritu emprendedor y soluciones innovadoras para mejorar tu vida financiera a través de vehículos y temáticas rentables</p>
+                </div>
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card card-fondo h-100">
+                <i class="fa-solid fa-piggy-bank fa-2x text-center mt-3"></i>
+                <div class="card-body">
+                  <h4 class="card-title fw-bold text-primary">Más comprometida</h4>
+                  <p class="card-text  text-wrap fs-6 lh-1">Invierte en las ideas que están transformando el mundo en los próximos años. Tú decides qué futuro quieres para ti y para toda la sociedad</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+    <!--Entradas recientes-->
+<section class="container">
+    <div class="row py-4 h-100">
+      <div class=" col-md-6">
+     <p class="text-start text-primary fw-bold fs-4">Entradas Recientes</p>
+        <div class="row row-cols-1 row-cols-md-2 g-2 ">
+
+          <div class="col">
+            <div class="card h-100">
+             <img src="./img/rentafija01.jpg" class="card-img-top " alt="rentafija">
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-primary ">Inversión de renta fija: Seguridad financiera a futuro</h5>
+                <p class="card-text text-wrap fs-6 lh-1">Planificar sus finanzas para que en un futuro aseguren su estilo de vida actual es una decisión...</p>
+                <div class="d-grid ">
+                  <a href="./html/rentafija.html" class="btn btn-primary ">Ver más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="./img/criptomoneda01.jpg" class="card-img-top" alt="criptomonedas" >
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-primary">Criptomonedas: una industria con más de 300 millones de usuarios</h5>
+                <p class="card-text text-wrap fs-6 lh-1">Las criptomonedas se han convertido en una de las monedas digitales más populares...</p>
+                <div class="d-grid ">
+                  <a href="./html/criptomonedas.html" class="btn btn-primary ">Ver más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="./img/ciberseguridad01.jpg" class="card-img-top" alt="ciberseguridad">
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-primary">Ciberseguridad: una industria en crecimiento</h5>
+                <p class="card-text text-wrap fs-6 lh-1">Los delitos cibernéticos van en aumento, incrementando la importancia de la ciberseguridad y dando paso a nuevas oportunidades </p>
+                <div class="d-grid  ">
+                  <a href="./html/ciberseguridad.html" class="btn btn-primary ">Ver más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+             <img src="./img/bigdata01.jpg" class="card-img-top " alt="bigdata">
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-primary">¿Por qué invertir en Big Data?</h5>
+                <p class="card-text text-wrap fs-6 lh-1">El Big Data está revolucionando sectores tan relevantes como el comercio electrónico, el sector financiero,...</p>
+                <div class="d-grid ">
+                  <a href="./html/bigdata.html" class="btn btn-primary ">Ver más</a>
+                </div>
+              </div>
+            </div>
+          </div>        
+        </div>
+
+        <!--Pagination-->
+        <ul class="pagination pagination-sm my-3">
+          <li class="page-item"><a href="#" class="page-link"><<</a></li>
+          <li class="page-item active"><a href="#" class="page-link">1</a></li>
+          <li class="page-item"><a href="./html/error404.html" class="page-link">2</a></li>
+          <li class="page-item"><a href="./html/error404.html" class="page-link">3</a></li>
+          <li class="page-item"><a href="./html/error404.html" class="page-link">4</a></li>
+          <li class="page-item"><a href="./html/error404.html" class="page-link">>></a></li>
+        </ul>
+ </div>
+
+     <!--segunda columna-->
+      <div class="col-md-6 my-5 ">
+
+         <!--seccion buscar-->
+         
+         <form class="col-md-8 offset-2">
+          <div class="input-group">
+            <input class=" form-control py-1 searchbar" type="text" placeholder="Buscar..." aria-label="search">
+            <button class="btn btn-outline-primary" type="submit" >
+              <i class="fas fa-search icon"  aria-hidden="true"></i>
+            </button>
+          </div>
+        </form>
+
+        <!--Secciones-->
+        <div class="my-3">
+        <div>
+          <p class="text-center text-primary fw-bold fs-4">Secciones</p>
+        </div >
+        <div class="col col-md-8 offset-2 list-group  align-items-center">
+          <a href="./html/error404.html" class="list-group-item list-group-item-action mb-1 section">Abre una cuenta</a>
+          <a href="./html/error404.html" class="list-group-item list-group-item-action mb-1 section">Tarjetas</a>
+          <a href="./html/error404.html" class="list-group-item list-group-item-action mb-1 section">Inversiones</a>
+          <a href="./html/error404.html" class="list-group-item list-group-item-action mb-1 section">Prestamos</a>
+        </div>
+      </div>
+     
+
+        <!--publicidad-->
+        <div class="row row-cols-1 row-cols-md-2 g-4 publicidad-dolar  ">
+          <div class="col d-none d-lg-block ">
+            <div class="card">
+              <iframe style="width:auto;height:240px;border-radius:10px;box-shadow:2px 4px 4px rgb(0 0 0 / 25%);display:flex;justify-content:center;border:1px solid #bcbcbc" src="https://dolarhoy.com/i/cotizaciones/dolar-blue" frameborder="0"></iframe>
+             
+            </div>
+          </div>
+          <div class="col d-none d-lg-block">
+            <div class="card">
+              <iframe style="width:auto;height:240px;border-radius:10px;box-shadow:2px 4px 4px rgb(0 0 0 / 25%);display:flex;justify-content:center;border:1px solid #bcbcbc" src="https://dolarhoy.com/i/cotizaciones/dolar-bancos-y-casas-de-cambio" frameborder="0"></iframe>
+              
+            </div>
+          </div>
+          <div class="col d-none d-lg-block">
+            <div class="card">
+              <iframe style="width:auto;height:240px;border-radius:10px;box-shadow:2px 4px 4px rgb(0 0 0 / 25%);display:flex;justify-content:center;border:1px solid #bcbcbc" src="https://dolarhoy.com/i/cotizaciones/bitcoin-usd" frameborder="0"></iframe>
+            
+            </div>
+          </div>
+          <div class="col d-none d-lg-block">
+            <div class="card">
+              <iframe style="width:3auto;height:240px;border-radius:10px;box-shadow:2px 4px 4px rgb(0 0 0 / 25%);display:flex;justify-content:center;border:1px solid #bcbcbc" src="https://dolarhoy.com/i/cotizaciones/dolar-contado-con-liquidacion" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+
+    </div>
+    </section>
+    </main>
+
+  <!--Footer-->
+  <footer class="wrap" id="footer">
+  
+    <div class="container">
+      <div class="row text-center ">
+        <!--redes sociales-->
+        <div class="col-12 col-md-4 mt-3 pt-3 d-flex justify-content-evenly">
+          <a href="https://es-la.facebook.com"
+          ><i class="fa-brands fa-facebook fa-2x footer-iconos"></i
+        ></a>
+        <a href="https://twitter.com"
+          ><i class="fa-brands fa-twitter fa-2x footer-iconos"></i
+        ></a>
+        <a href="https://www.instagram.com"
+          ><i class="fa-brands fa-instagram fa-2x footer-iconos"></i>
+        </a>
+        </div>
+        <!--logo-->
+        <div class="col-12 col-md-4 mt-3 ">
+          <div class="d-flex justify-content-center">
+            <a  class="navbar-brand" href="#">
+              <img src="./img/logo.png" alt="log" width="70" height="70" class="d-inline-block"></a>
+      <p class="navbar-brand fs-3 fw-bold ms-2 mt-3 logotitulo">Investment Bank</p>
+          </div>
+        </div>
+        <!--Información-->
+        <div class="col-12 col-md-4 mt-3 pt-3 d-flex justify-content-evenly">
+          <figure>
+          <a href="./html/contacto.html"><i class="fa-solid fa-phone-volume fa-2x footer-iconos"></i></a>
+          <p class="nav.footer nav-link">Contacto</p>
+        </figure>
+        <figure>
+          <a href="./html/blog.html"><<i class="fa-solid fa-paper-plane fa-2x footer-iconos"></i></a>
+          <p class="nav.footer nav-link">Blog</p>
+        </figure>
+        <figure>
+          <a href="./html/error404.html"><i class="fa-solid fa-circle-question fa-2x footer-iconos"></i
+          ></a>
+        <p class="nav.footer nav-link">FAQS</p>
+        </figure>
+        </div>
+      </div>
+    <!--Informacion banco-->
+    <div class="d-flex mb-2 container informationIB">
+      <div class="col-4 col-md-4 fs-6 d-flex justify-content-end" >
+        <a class="nav.footer nav-link fw-bold" href="./html/error404.html">AVISO LEGAL</a></div>
+      <div class="col-4 col-md-4 fs-6  d-flex justify-content-evenly">
+        <a class="  nav-link fw-bold fs-6" href="./html/error404.html">POLÍTICA DE COOKIES</a></div>
+      <div class="col-4 col-md-4 fs-6 d-flex justify-content-start">
+        <a class="nav-link fw-bold" href="./html/error404.html">GRUPO IB</a></div>
+  </div>
+  <div class="justify-content-center d-flex">
+    <small class="mb-4 informationIB "
+      >&copy; 2022 <b>Investment Bank</b> - Todos los Derechos
+      Reservados.</small
+    >
+  </div>
+    </div>
+  </section>
+    </footer>
+
+    <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Crear suscripcion</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form action="">
+        <div class="modal-body form-group">
+          <div class="mb-4 fw-bold">
+            <label for="nombre">Nombre y apellido</label>
+            <input type="text" class="form-control" name="nombre" required >
+          </div>
+          <div class="mb-4 fw-bold">
+            <label for="email" class="form-label">Correo electronico</label>
+            <input type="email" class="form-control" name="email" placeholder="example@gmail.com" required>
+           </div>
+            <div class="mb-4 fw-bold">
+              <label for="password" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" name="password" required>
+            </div>
+            <div class="mb-4 fw-bold">
+              <label for="password" class="form-label">Confirmar Contraseña</label>
+              <input type="password" class="form-control" name="password" required>
+            </div>
+            <div class="mb-4 fw-bold" class="form-check">
+              <input type="checkbox" name="connected" class="form-check-input" id="">
+              <label for="connected" class="form-check-label" required ><a href="#">Acepto terminos y condiciones</a></label>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <div class="text-center">
+            <input class="btn btn-primary" type="submit" value="Enviar">
+       </div>
+        </div></form>
+      </div>
+    </div>
+  </div>
+ 
+
+<!-- scrip BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+  </html>
+

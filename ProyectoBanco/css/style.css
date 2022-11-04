@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+     }
+
+header{
+    
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+   /*  position: fixed; si quiero de fondo la imagen y saco el backbackground-image*/
+   position: sticky; 
+  z-index: 3;
+    top: 0; 
+    }
+
+    /* color texto nombre banco */
+    .navbar-dark .navbar-brand{
+        color:white;
+    }
+
+    .navbar-dark .navbar-brand:hover{
+        color: white;
+    }
+
+    /* color menú */
+    .navbar .navbar-nav .nav-link{
+        color: white
+    }
+
+    .navbar .navbar-nav .nav-link:hover{
+        color:  #23255D;
+    }
+
+    .activado{
+        border-bottom: 2px solid white;
+        font-weight: bold;
+    }
+
+   /* color botones */
+  .bottom{
+   margin-right: 10px;
+   border-radius: 10px;
+   }
+
+ /*home*/
+/*carousel*/
+ .carousel-item {
+    max-height: 65vh;
+    min-height: 100%;
+    object-fit: cover;
+  }
+
+ .card-fondo{
+    background-image: linear-gradient(to top, #00c5fb25 0%, #005aea26 100%);
+}
+
+/* .card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 16px rbba(0, 0, 0, 0.2);
+} */
+
+.section{
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);   
+    color:white;  
+}
+
+.section:hover{
+    color: black; 
+}
+
+.searchbar{
+    border: solid 1px grey;
+    border-radius: 10px;
+}
+
+.publicidad-dolar{
+    color:#23255D; 
+}
+
+/*videoprueba*/
+.videoprueba{
+   
+   
+  
+
+}
+
+/*footer*/
+
+footer{
+    width: 100vw;
+    background-image: linear-gradient(to top, #00C6FB 0%, #005BEA 100%);
+}
+
+.logotitulo{
+    color: #FDFBFB;
+}
+
+.nav.footer, .navbar-brand{
+    color:white;
+}
+.footer-iconos{
+    color: black;
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color:white;
+}
+
+   
+
+.verentradas{
+    text-decoration: none;
+}
+
+.boton-comentarios{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.boton-comentarios:hover{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+} */
+
+/* página error 404 */
+   
+#error404{
+    height:100vh;
+     background-color:black;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .imgenerror404{
+        width:80%;
+    }
+       
+    .conterror404{
+        height: 100vh;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;   
+    }
+    
+    .text-error404{
+        font-size: 20px;
+    }
+    
+    .btn-error404{
+        background-color:  #005BEA ;
+        border-radius: 10px;
+        color: white;
+    }
+    
+    .btn-error404:hover{
+        background-color:white  ;
+        border-radius: 15px;
+        color: #041632 ;
+    }
+    }
+/*imagenes de entradas de blog*/
+.img-pages{
+   width: 100vw;
+   height: 50px;
+   object-fit: cover;
+}
+
+/*seccion blog comentarios*/
+.logo-comentarios{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+  height: 40px;
+}
+
+.users{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    margin-top:5px;
+    text-align: center;
+}
+
+
+
+
+
+/* mediaquery */
+/* @media (max-width: 480px){
+    .publicidad-dolar{
+       display: none  !important;
+      } 
+
+      .navbar-brand__footer{
+        display: none  !important;
+      }
+
+      .text-footer{
+        display: none  !important;
+      }
+} */
+
+/* media query error */
+@media screen and (max-width:767px) {
+    .text-error404{
+        font-size: 14px;   
+    }
+} 
+
+@media screen and (max-width:375px) {
+    .text-error404{
+        font-size: 12px;   
+    }
+} 
+
+/*media query footer*/
+@media ( max-width:530px ) {
+    .informationIB {
+   font-size: 13px;
+        text-align: center;
+    }
+   }
+ 
+/*imagen login*/
+.img-login{
+    object-fit: cover;
+}
+
+/*modal*/
+.modal-header {
+    color: black;
+   
+  }
+  .modal-footer{
+      background-image: linear-gradient(to top,#005BEA , #00C6FB 100%);
+  }
+
+ 
+
+    
+
+  

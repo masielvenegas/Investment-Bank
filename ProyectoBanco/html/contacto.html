@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keybords" content="banco, inversiones, bank, Investment Bank"/>
+    
+    <!--link css de boostrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!--link googlefonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+     <!--link fontawesome-->
+     <script
+     src="https://kit.fontawesome.com/8ebf433348.js"
+     crossorigin="anonymous"
+   ></script>
+    
+    <link rel="stylesheet" href="../css/style.css" />
+      
+
+    <title>Contacto</title>
+  </head>
+
+<body>
+   <!-- Header -->
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container ">
+
+            <!-- logo -->
+            <div class="d-flex align-items-center justify-content-start >
+              <a  class="navbar-brand " href="#">
+                <img src="../img/logo.png" alt="log" width="70" height="70" class="d-inline-"></a>
+       
+        <p  class="navbar-brand fs-4 fw-bold ms-2 mt-3 ">Investment Bank</p>
+            </div>   
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- lista desordenada -->
+        
+          <div class="collapse navbar-collapse justify-content-end fs-5 " id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item ">
+                <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="../html/aboutus.html">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="../html/blog.html">Blog</a>
+              </li>
+              <li class="nav-item activado">
+                <a class="nav-link " href="../html/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- botones -->
+          <div class="collapse navbar-collapse justify-content-end fs-5 " id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <button type="button" class="btn btn-light text-primary  fs-5 my-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Suscríbite
+                </button>
+              </li>
+              <li class="nav-item  ">
+                <a class="nav-link" href="./login.html">Inicia Sesión</a>
+              </li>            
+            </ul>
+          </div>   
+
+        </div>
+      </nav>
+      </header>
+
+      
+
+      <!--main-->
+      <!--contacto-->
+      <main>
+        <!--maps-->
+        <div class="container my-5">
+                 <div class="row ">
+                  <div class="  col-md-6 mb-5">
+                    <h2 class="text-primary fw-bold text-center">Visitanos</h2>
+                    <iframe class="mapa rounded w-100 h-100"
+                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.6502296434023!2d-65.20494628556975!3d-26.819263583167892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c22cd274cf7%3A0xc9b23266e09ca55c!2sPlaza%20Urquiza!5e0!3m2!1ses!2sar!4v1666294658178!5m2!1ses!2sar"
+                   loading="lazy"
+                   referrerpolicy="no-referrer-when-downgrade"
+                 ></iframe>
+                  </div>
+                  <div class=" formulario mb-5  col-md-6 ">
+                    <h2 class="fw-bold text-center text-primary ">Envianos un mensaje</h2>
+                    <form class=" shadow p-4 rounded h-100">
+                        <div class="form-group mb-3">
+                          <label for="form-text" class="form-label" >Nombre y Apellido</label>
+                          <input type="text" class="form-control" id="form-text" placeholder="Franco Paviolo" required>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Franco@gmail.com" required>
+                          </div>
+                        <div class=" form-group mb-3">
+                          <label for="form-text" class="form-label">Asunto</label>
+                          <input type="text" class="form-control" id="form-text" placeholder="ej. Información productos" required>
+                        </div>
+                        <div class="form-group mb-3 ">
+                          <label for="form-text" class="form-label">Mensaje</label>
+                          <textarea placeholder="Ingrese su consulta" class="form-control" id="form-text" cols="60" rows="4" required></textarea>
+                        </div>
+                       <div class="text-center">
+                           <input class="btn btn-primary" type="submit" value="enviar">
+                      </div>
+                    </form>
+                    </div>
+                  </div>
+                </div>     
+         </main>
+
+       <!--Footer-->
+  <footer class="wrap" id="footer">
+  
+    <div class="container">
+      <div class="row text-center ">
+        <!--redes sociales-->
+        <div class="col-12 col-md-4 mt-3 pt-3 d-flex justify-content-evenly">
+          <a href="https://es-la.facebook.com"
+          ><i class="fa-brands fa-facebook fa-2x footer-iconos"></i
+        ></a>
+        <a href="https://twitter.com"
+          ><i class="fa-brands fa-twitter fa-2x footer-iconos"></i
+        ></a>
+        <a href="https://www.instagram.com"
+          ><i class="fa-brands fa-instagram fa-2x footer-iconos"></i>
+        </a>
+        </div>
+        <!--logo-->
+        <div class="col-12 col-md-4 mt-3 ">
+          <div class="d-flex justify-content-center">
+            <a  class="navbar-brand" href="#">
+              <img src="../img/logo.png" alt="log" width="70" height="70" class="d-inline-block"></a>
+      <p class="navbar-brand fs-3 fw-bold ms-2 mt-3 logotitulo">Investment Bank</p>
+          </div>
+        </div>
+        <!--Información-->
+        <div class="col-12 col-md-4 mt-3 pt-3 d-flex justify-content-evenly">
+          <figure>
+          <a href="./html/contacto.html"><i class="fa-solid fa-phone-volume fa-2x footer-iconos"></i></a>
+          <p class="nav.footer nav-link">Contacto</p>
+        </figure>
+        <figure>
+          <a href="./html/blog.html"><<i class="fa-solid fa-paper-plane fa-2x footer-iconos"></i></a>
+          <p class="nav.footer nav-link">Blog</p>
+        </figure>
+        <figure>
+          <a href="./html/error404.html"><i class="fa-solid fa-circle-question fa-2x footer-iconos"></i
+          ></a>
+        <p class="nav.footer nav-link">FAQS</p>
+        </figure>
+        </div>
+      </div>
+    <!--Informacion banco-->
+    <div class="d-flex mb-2 container informationIB">
+      <div class="col-4 col-md-4 fs-6 d-flex justify-content-end" >
+        <a class="nav.footer nav-link fw-bold" href="../html/error404.html">AVISO LEGAL</a></div>
+      <div class="col-4 col-md-4 fs-6  d-flex justify-content-evenly">
+        <a class="  nav-link fw-bold fs-6" href="../html/error404.html">POLÍTICA DE COOKIES</a></div>
+      <div class="col-4 col-md-4 fs-6 d-flex justify-content-start">
+        <a class="nav-link fw-bold" href="../html/error404.html">GRUPO IB</a></div>
+  </div>
+  <div class="justify-content-center d-flex">
+    <small class="mb-4 informationIB "
+      >&copy; 2022 <b>Investment Bank</b> - Todos los Derechos
+      Reservados.</small
+    >
+  </div>
+    </div>
+  </section>
+    </footer>
+
+     <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Crear suscripcion</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form action="">
+        <div class="modal-body form-group">
+          <div class="mb-4 fw-bold">
+            <label for="nombre">Nombre y apellido</label>
+            <input type="text" class="form-control" name="nombre" required >
+          </div>
+          <div class="mb-4 fw-bold">
+            <label for="email" class="form-label">Correo electronico</label>
+            <input type="email" class="form-control" name="email" placeholder="example@gmail.com" required>
+           </div>
+            <div class="mb-4 fw-bold">
+              <label for="password" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" name="password" required>
+            </div>
+            <div class="mb-4 fw-bold">
+              <label for="password" class="form-label">Confirmar Contraseña</label>
+              <input type="password" class="form-control" name="password" required>
+            </div>
+            <div class="mb-4 fw-bold" class="form-check">
+              <input type="checkbox" name="connected" class="form-check-input" id="">
+              <label for="connected" class="form-check-label" required ><a href="#">Acepto terminos y condiciones</a></label>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <div class="text-center">
+            <input class="btn btn-primary" type="submit" value="Enviar">
+       </div>
+        </div></form>
+      </div>
+    </div>
+  </div>
+
+
+  
+ 
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+

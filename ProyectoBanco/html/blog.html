@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keybords" content="banco, inversiones, bank, Investment Bank"/>
+    
+    <!--link css de boostrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!--link googlefonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+     <!--link fontawesome-->
+     <script
+     src="https://kit.fontawesome.com/8ebf433348.js"
+     crossorigin="anonymous"
+   ></script>
+    
+    <link rel="stylesheet" href="../css/style.css" />
+      
+
+    <title>Blog</title>
+  </head>
+
+<body>
+   <!-- Header -->
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container ">
+
+            <!-- logo -->
+            <div class="d-flex align-items-center justify-content-start >
+              <a  class="navbar-brand " href="#">
+                <img src="../img/logo.png" alt="log" width="70" height="70" class="d-inline-"></a>
+       
+        <p  class="navbar-brand fs-4 fw-bold ms-2 mt-3 ">Investment Bank</p>
+            </div>   
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- lista desordenada -->
+        
+          <div class="collapse navbar-collapse justify-content-end fs-5 " id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item ">
+                <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="../html/aboutus.html">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item activado">
+                <a class="nav-link " href="../html/blog.html">Blog</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="../html/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- botones -->
+          <div class="collapse navbar-collapse justify-content-end fs-5 " id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <button type="button" class="btn btn-light text-primary  fs-5 my-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Suscríbite
+                </button>
+              </li>
+              <li class="nav-item   ">
+                <a class="nav-link" href="./login.html">Inicia Sesión</a>
+              </li>            
+            </ul>
+          </div>
+              
+        </div>
+      </nav>
+      </header>
+
+
+      <main>
+        <section class="container mt-5">
+            <h3 class="text-primary fw-bold text-center ">Te ayudamos a elegir los proyectos más rentablespara impulsar tu inversión</h3>
+
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 my-3 g-4">
+               <!--columna 1-->
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="../img/rentafija01.jpg" class="card-img-top" alt="rentafija">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-primary text-center ">Renta fija</h5>
+                            <p class="card-text text-wrap fs-6 lh-2">Tipo de inversión que obligan al emisor a devolver el capital invertido al cabo de un período de tiempo. </p>
+                            <div class="d-grid ">
+                                <a href="../html/rentafija.html" class="btn btn-primary ">Ver más</a>
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                          <img src="../img/criptomoneda01.jpg" class="card-img-top" alt="criptomonedas" >
+                          <div class="card-body">
+                            <h5 class="card-title fw-bold text-primary">Criptomonedas: </h5>
+                            <p class="card-text text-wrap fs-6 lh-2">Las criptomonedas se han convertido en una de las monedas digitales más populares...</p>
+                            <div class="d-grid ">
+                              <a href="../html/criptomonedas.html" class="btn btn-primary ">Ver más</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="card h-100">
+                          <img src="../img/ciberseguridad01.jpg" class="card-img-top" alt="ciberseguridad">
+                          <div class="card-body">
+                            <h5 class="card-title fw-bold text-primary">Ciberseguridad</h5>
+                            <p class="card-text text-wrap fs-6 lh-2">Capacidad para cubrirse ante posibles fallos tecnológicos y protegerse ante ataques cibernéticos. </p>
+                            <div class="d-grid  ">
+                              <a href="../html/ciberseguridad.html" class="btn btn-primary ">Ver más</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="card h-100">
+                         <img src="../img/bigdata01.jpg" class="card-img-top " alt="bigdata">
+                          <div class="card-body">
+                            <h5 class="card-title fw-bold text-primary">Big Data</h5>
+                            <p class="card-text text-wrap fs-6 lh-2">Es el proceso de recolectar y analizar datos muy diversos, en cantidades masivas de información.</p>
+                            <div class="d-grid ">
+                              <a href="../html/bigdata.html" class="btn btn-primary ">Ver más</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                       <!--columna 2-->
+                    <div class="col">
+                        <div class="card h-100">
+                          <img src="../img/rentafija01.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5 class="card-title fw-bold text-primary text-center ">Blockchain</h5>
+                              <p class="card-text text-wrap fs-6 lh-2">Tecnología que aporta grandes avances en seguridad y abarata los costes.</p>
+                              <br>
+                              <div class="d-grid ">
+                                  <a href="../html/rentafija.html" class="btn btn-primary ">Ver más</a>
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+  
+                      <div class="col">
+                          <div class="card h-100">
+                            <img src="../img/inteligenciaArtificial.jpg" class="card-img-top" alt="inteligenciaArtificial" >
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold text-primary">Inteligencia artificial</h5>
+                              <p class="card-text text-wrap fs-6 lh-2">Inteligencia artificial s la simulación de la inteligencia humana en máquinas que están programadas para pensar.</p>
+                              <div class="d-grid ">
+                                <a href="../html/criptomonedas.html" class="btn btn-primary ">Ver más</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+  
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="../img/comercioelectronico.jpg" class="card-img-top" alt="comercioelectronico">
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold text-primary">Comercio electrónico</h5>
+                              <p class="card-text text-wrap fs-6 lh-2">El ecommerce o comercio electrónico es la industria de compra venta de bienes o servicios a través de internet.</p>
+                              <br>
+                              <div class="d-grid  ">
+                                <a href="../html/ciberseguridad.html" class="btn btn-primary ">Ver más</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+  
+                        <div class="col">
+                          <div class="card h-100">
+                           <img src="../img/redesSociales.jpg" class="card-img-top " alt="redesSociales">
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold text-primary">Redes sociales</h5>
+                              <p class="card-text text-wrap fs-6 lh-2">Las Redes Sociales han cambiado por completo la forma en que se comunican las personas, reduciendo las distancias.</p>
+                              <div class="d-grid ">
+                                <a href="../html/bigdata.html" class="btn btn-primary ">Ver más</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                       <!--columna 3-->
+                       <div class="col">
+                        <div class="card h-100">
+                         <img src="../img/fintech.jpg" class="card-img-top " alt="fintech">
+                          <div class="card-body">
+                            <h5 class="card-title fw-bold text-primary">Fintech</h5>
+                            <p class="card-text text-wrap fs-6 lh-2">Es una creciente industria que utiliza las últimas tecnologías para proveer servicios financieros.</p>
+                            <br>
+                            <div class="d-grid ">
+                              <a href="../html/bigdata.html" class="btn btn-primary ">Ver más</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="card h-100">
+                         <img src="../img/tecnologia5g.jpg" class="card-img-top " alt="tecnologia5g">
+                          <div class="card-body">
+                            <h5 class="card-title fw-bold text-primary">Tecnología 5G</h5>
+                            <p class="card-text text-wrap fs-6 lh-2">La tecnología 5G permitirá obtener mucha mayor velocidad, menor latencia, y mayor capacidad de datos.</p>
+                            <br>
+                            <div class="d-grid ">
+                              <a href="../html/bigdata.html" class="btn btn-primary ">Ver más</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="card h-100">
+                         <img src="../img/fondosmixtos.jpg" class="card-img-top " alt="fondosmixtos">
+                          <div class="card-body">
+                            <h5 class="card-title fw-bold text-primary">Fondos Mixtos</h5>
+                            <p class="card-text text-wrap fs-6 lh-2">Son vehículos de inversión que contienen tanto activos de renta fiija como activos de renta variable. </p>
+                            <br>
+                            <div class="d-grid ">
+                              <a href="../html/bigdata.html" class="btn btn-primary ">Ver más</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="card h-100">
+                         <img src="../img/tecnahorroenergia.jpg" class="card-img-top " alt="tecnahorroenergia">
+                          <div class="card-body">
+                            <h5 class="card-title fw-bold text-primary">Tecnologías de ahorro de energía</h5>
+                            <p class="card-text text-wrap fs-6 lh-2">Tecnologías que consiguen reducir la cantidad de energía que necesita un producto o servicio para funcionar.</p>
+                            <div class="d-grid ">
+                              <a href="../html/bigdata.html" class="btn btn-primary ">Ver más</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+
+                  <!--sección entrada a blog: renta fija-->
+                  <section class="container my-5" >
+                    <h2 class=" text-primary fw-bold mb-4"> Inversión de renta fija: Seguridad financiera a futuro</h2>
+                       <div>
+                        <span class="text-center">Publicado: Nov. 30, 2021 / commentarios: 1 cometario</span>
+                       </div>
+                       <br>
+                       <div>
+                  
+                       </div>
+                    <div class="container  ">
+                      
+                      <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="../img/rentafija02.jpg" class="card-img-top" alt="rentafija02">
+                            <div class="card-body card-caracteristica__fondo">
+                              <h5 class="card-title fw-bold text-primary">Muy útil para inversores conservadores</h5>
+                              <p class="card-text fs-5 lh-2">La renta fija tiene menos volatilidad que la renta variable, por lo que es muy útil para inversores conservadores, que simplemente quieren mantener el poder adquisitivo de su dinero</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="../img/rentafija04.jpg" class="card-img-top" alt="rentafija04">
+                            <div class="card-body card-caracteristica__fondo">
+                              <h5 class="card-title fw-bold text-primary">Rentabilidad estimada de antemano</h5>
+                              <p class="card-text fs-5 lh-2">Ofrece una rentabilidad estimada de antemano.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="../img/rentafija03.jpg" class="card-img-top" alt="rentafija03">
+                            <div class="card-body card-caracteristica__fondo">
+                              <h5 class="card-title fw-bold text-primary">Cartera más diversificada</h5>
+                              <p class="card-text fs-5 lh-2">En conjunto con la renta variable permite componer una cartera más diversificada, con un mejor binomio rentabilidad-riesgo</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+<!--sección leer-->
+                  <section class="container my-5">
+                    <div>
+                      <a href="../html/rentafija.html" class="red lead my-5 verentradas">
+                        <span class="mx-2"><<</span>Leer >>
+                      </a>
+                    </div>
+                  </section>
+            </section>
+
+            <!--sección entrada a blog: Criptomonedas-->
+            <section class="container mt-3 ">
+                 <h2 class=" text-primary fw-bold"> Criptomonedas: una industria con más de 300 millones de usuarios</h2>
+                    <span>Publicado: Nov. 30, 2021 / commentarios: 0 cometario</span>
+                   </div>
+                   <img src="../img/criptomoneda01.jpg" class="img-fluid img-pages"  alt="criptomoneda">
+                   <p class="mt-3" > Las <strong>criptomonedas </strong>se han convertido en una de las monedas digitales más populares del mercado financiero actual. La confianza que se tiene sobre las mismas ha aumentado considerablemente con el pasar de los años, lo que ha incrementado el interés en invertir en cripto en personas de todas las edades y nacionalidades.</p>
+              </section>
+                  <!--sección leer-->
+            <section class="container ">
+                <div>
+                  <a href="../html/criptomonedas.html" class="red lead my-5 verentradas">
+                    <span class="mx-2"><<</span>Leer >>
+                  </a>
+                </div>
+
+
+              </section>
+
+            <!--sección entrada a blog: Ciberseguridad-->
+            <section class="container mt-3 ">
+              <h2 class=" text-primary fw-bold"> Ciberseguridad: una industria en crecimiento</h2>
+                 <span>Publicado: Nov. 30, 2021 / commentarios: 0 cometario</span>
+                </div>
+                <img src="../img/ciberseguridad01.jpg" class="img-fluid img-pages"  alt="ciberseguridad">
+                <p class="mt-3" > El costo del cibercrimen aumenta no solo a nivel monetario y la industria de la seguridad cibernética duplica esfuerzos para mantener la privacidad de los usuarios resguardada. Por ello, es una industria con mayores oportunidades de inversión y avance tecnológico.</p> 
+           </section>
+                   
+              <!--sección leer-->
+            <section class="container ">
+                <div>
+                  <a href="../html/ciberseguridad.html" class="red lead my-5 verentradas">
+                    <span class="mx-2"><<</span>Leer >>
+                  </a>
+                </div>
+              </section>
+
+            <!--sección entrada a blog: bigdata-->
+            <section class="container mt-3 ">
+              <h2 class=" text-primary fw-bold">¿Por qué debería invertir en Big Data?</h2>
+                 <span>Publicado: Nov. 30, 2021 / commentarios: 0 cometario</span>
+                </div>
+                <img src="../img/bigdata01.jpg" class="img-fluid img-pages"  alt="bigdata">
+                <p class="mt-3" >Invertir en Big Data significa invertir en la evolución del ser humano, en su conocimiento, en sus necesidades y en la mejora de la toma de decisiones basadas en sus requerimientos. El análisis de MacroDatos permite a las empresas e instituciones analizar cómo mejorar sus resultados en todas las áreas.</p> 
+           </section>
+
+            <!--sección leer-->
+            <section class="container mb-5">
+                <div>
+                  <a href="../html/bigdata.html" class="red lead my-5 verentradas">
+                    <span class="mx-2"><<</span>Leer >>
+                  </a>
+                </div>
+              </section>
+            </div>
+            </div>
+          </section>
+
+<!--comentarios-->
+<section class="container ">
+  <h3 class=" text-primary fw-bold">Comentarios</h3>
+  <div class="card bg-light mb-3" >
+    <img src="../img/logo.png" class="logo-comentarios" alt="logo">
+    <img src="../img/user_1.png" class=" mx-auto d-block users" alt="user1"> 
+    <div class="col mt-1">
+     <h5 class="text-primary fw-bold text-center" >Rodrigo</h5>
+        <div class="text-center" > 
+          <i class="fa-solid fa-star text-primary "></i>
+          <i class="fa-solid fa-star text-primary  "></i>
+          <i class="fa-solid fa-star text-primary  "></i>
+          <i class="fa-solid fa-star text-primary  "></i> 
+        </div>
+        <p class="card-text ms-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text ms-3"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>   
+  </div>
+ 
+    <div class="card bg-light mb-3 " >
+      <img src="../img/logo.png" class="logo-comentarios" alt="logo">
+      <img src="../img/user_2.png" class=" mx-auto d-block users" alt="user2"> 
+      <div class="col mt-1  ">
+       <h5 class="text-primary fw-bold text-center " >Ivonne</h5>
+          <div class="text-center" > 
+            <i class="fa-solid fa-star text-primary"></i>
+            <i class="fa-solid fa-star text-primary"></i>
+            <i class="fa-solid fa-star text-primary"></i>
+            <i class="fa-solid fa-star text-primary"></i> 
+          </div>
+          <p class="card-text ms-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text ms-3"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>   
+    </div>
+
+    <div class="card bg-light mb-3" >
+      <img src="../img/logo.png" class="logo-comentarios" alt="logo">
+      <img src="../img/user_3.png" class=" mx-auto d-block users" alt="user3"> 
+      <div class="col mt-1">
+       <h5 class="text-primary fw-bold text-center" >Samuel</h5>
+          <div class="text-center" > 
+            <i class="fa-solid fa-star text-primary"></i>
+            <i class="fa-solid fa-star text-primary"></i>
+            <i class="fa-solid fa-star text-primary"></i>
+            <i class="fa-solid fa-star text-primary"></i> 
+          </div>
+          <p class="card-text ms-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text ms-3"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>   
+    </div>
+</section>          
+      </main>
+
+      <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Crear suscripcion</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form action="">
+        <div class="modal-body form-group">
+          <div class="mb-4 fw-bold">
+            <label for="nombre">Nombre y apellido</label>
+            <input type="text" class="form-control" name="nombre" required >
+          </div>
+          <div class="mb-4 fw-bold">
+            <label for="email" class="form-label">Correo electronico</label>
+            <input type="email" class="form-control" name="email" placeholder="example@gmail.com" required>
+           </div>
+            <div class="mb-4 fw-bold">
+              <label for="password" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" name="password" required>
+            </div>
+            <div class="mb-4 fw-bold">
+              <label for="password" class="form-label">Confirmar Contraseña</label>
+              <input type="password" class="form-control" name="password" required>
+            </div>
+            <div class="mb-4 fw-bold" class="form-check">
+              <input type="checkbox" name="connected" class="form-check-input" id="">
+              <label for="connected" class="form-check-label" required ><a href="#">Acepto terminos y condiciones</a></label>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <div class="text-center">
+            <input class="btn btn-primary" type="submit" value="Enviar">
+       </div>
+        </div></form>
+      </div>
+    </div>
+  </div>
+ 
+
+ 
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+    </html>
+  
